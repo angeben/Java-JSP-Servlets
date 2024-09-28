@@ -17,20 +17,20 @@ public class Main {
 
 	    JButton button1 = new JButton("Learn about us!");
 	    JButton button2 = new JButton("Fibonacci Sequence");
-	    JButton button3 = new JButton("Button 3");
-	    JButton button4 = new JButton("Button 4");
+	    //JButton button3 = new JButton("Button 3");
+	    //JButton button4 = new JButton("Button 4");
 	    
 	    buttonsPanel.add(button1);
 	    button1.addActionListener(new HelloWindow());
 	    buttonsPanel.add(button2);
 	    button2.addActionListener(new ShowFibonacci());
-	    buttonsPanel.add(button3);
-	    buttonsPanel.add(button4);
+	    //buttonsPanel.add(button3);
+	    //buttonsPanel.add(button4);
 
 	    JLabel WelcomeText = new JLabel("Welcome to our Java Application");
 	    
-	    JRadioButton r1 = new JRadioButton("A) Male");    
-	    JRadioButton r2 = new JRadioButton("B) Female");
+	    JRadioButton r1 = new JRadioButton("A) Radio 1");    
+	    JRadioButton r2 = new JRadioButton("B) Radio 2");
 	    ButtonGroup bg = new ButtonGroup();    
 	    bg.add(r1);bg.add(r2); 
 	    JPanel radioButtons = new JPanel();
