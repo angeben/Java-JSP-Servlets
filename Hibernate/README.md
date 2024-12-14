@@ -1,1 +1,1 @@
-
+# Java projects with Hibernate
